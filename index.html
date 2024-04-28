@@ -31,8 +31,9 @@
     <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
 </head>
 
-<body>
+<body class="about-us bg-gray-200">
     <!-- Navbar Dark -->
+    <!--
     <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-dark z-index-3 py-3">
         <div class="container">
             <a class="navbar-brand text-white" href="" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom" target="_blank">Material Kit</a>
@@ -55,24 +56,86 @@
             </div>
         </div>
     </nav>
+-->
+<nav class="navbar navbar-expand-lg position-absolute top-0 z-index-3 w-100 shadow-none my-3  navbar-transparent ">
+    <div class="container">
+      <a class="navbar-brand  text-white " href="https://demos.creative-tim.com/material-kit/presentation" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom" target="_blank">
+        EvolveSphere | Nuestro Producto
+      </a>
+      <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon mt-2">
+          <span class="navbar-toggler-bar bar1"></span>
+          <span class="navbar-toggler-bar bar2"></span>
+          <span class="navbar-toggler-bar bar3"></span>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0 ms-lg-12 ps-lg-5" id="navigation">
+        <ul class="navbar-nav navbar-nav-hover ms-auto">
+          <li class="nav-item dropdown dropdown-hover mx-2 ms-lg-6"> <!--NAVEGACION-->
+            <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuPages8" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="material-icons opacity-6 me-2 text-md">dashboard</i>
+              Navegación
+              <img src="../assets/img/down-arrow-white.svg" alt="down-arrow" class="arrow ms-2 d-lg-block d-none">
+              <img src="../assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-2 d-lg-none d-block">
+            </a>
+            <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-lg mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages8">
+              <div class="d-none d-lg-block">
+                <a href="#" class="dropdown-item border-radius-md">
+                  <span>Nuestro Producto</span>
+                </a>
+                <a href="about-us.html" class="dropdown-item border-radius-md">
+                  <span>Sobre Nosotros</span>
+                </a>
+                <a href="#" class="dropdown-item border-radius-md">
+                  <span>Planes</span>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item ms-lg-auto"> <!--GITHUB-->
+            <a class="nav-link nav-link-icon me-2" href="https://github.com/EvolveSphere/EvolveSphere.github.io.git" target="_blank">
+              <i class="fa fa-github me-1"></i>
+              <p class="d-inline text-sm z-index-1 font-weight-bold" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Star us on Github">Github</p>
+            </a>
+          </li>
+          <li class="nav-item my-auto ms-3 ms-lg-0"> <!--CONTACT US-->
+            <a href="format.html" class="btn btn-sm  bg-white  mb-0 me-1 mt-2 mt-md-0">Haz el formulario ya!</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
     <!-- End Navbar -->
 
-    <!-- Título y texto antes de la galería -->
-    <div class="container mt-4">
-        <div class="row">
-            <div class="col-md-8 offset-md-2 text-center">
-                <h1>¿Qué hacemos como corporación?</h1>
-                <p>
-                    Páginas web con múltiples funciones, desde barras de navegación con páginas de 
-                    información, buscadores inteligentes e incluso carruseles de imágenes para tu 
-                    nueva página corporativa! Tratas con profesionales, por lo que tu página web
-                    está segura y libre de problemas! 
-                </p>
+    <!-- -------- START HEADER 7 w/ text and video ------- -->
+    <header class="bg-gradient-dark"> <!-- Imagen Principal-->
+        <div class="page-header min-vh-75" style="background-image: url('../assets/img/bg2.jpg');">
+          <span class="mask bg-gradient-dark opacity-6"></span>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8 text-center mx-auto my-auto">
+                <h1 class="text-white">EvolveSphere</h1>
+                <h2 class="lead mb-4 text-white opacity-8">¿Qué hacemos como corporación?</p>
+                    <p>
+                        Páginas web con múltiples funciones, desde barras de navegación con páginas de 
+                        información, buscadores inteligentes e incluso carruseles de imágenes para tu 
+                        nueva página corporativa! Tratas con profesionales, por lo que tu página web
+                        está segura y libre de problemas! 
+                    </p>
+                <h6 class="text-white mb-2 mt-5">Encuéntranos en:</h6>
+                <div class="d-flex justify-content-center">
+                  <a href="javascript:;"><i class="fab fa-facebook text-lg text-white me-4"></i></a>
+                  <a href="javascript:;"><i class="fab fa-instagram text-lg text-white me-4"></i></a>
+                  <a href="javascript:;"><i class="fab fa-twitter text-lg text-white me-4"></i></a>
+                  <a href="javascript:;"><i class="fab fa-google-plus text-lg text-white"></i></a>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </header>
+      <!-- -------- END HEADER 7 w/ text and video ------- -->
 
-    </div>
-    <!-- Fin título -->
     <!-- Carrousel-->
     <div>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
